@@ -1,11 +1,13 @@
-package suma;
+package calculator;
 
 public class CalculatorFrame extends javax.swing.JFrame {
     private int num1, num2;
+    String screenLabel;
 
     public CalculatorFrame() {
         num1 = 0;
         num2 = 0;
+        screenLabel = "";
         initComponents();
     }
 
@@ -198,11 +200,11 @@ public class CalculatorFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton12ActionPerformed
 
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
-        // TODO add your handling code here:
+
     }//GEN-LAST:event_jButton14ActionPerformed
 
     private void jButton0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton0MouseClicked
-        
+        screenLabel = screenLabel + "0";
     }//GEN-LAST:event_jButton0MouseClicked
 
     /**

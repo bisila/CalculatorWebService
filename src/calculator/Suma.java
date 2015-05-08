@@ -1,4 +1,4 @@
-package suma;
+package calculator;
 
 import java.util.Scanner;
 public class Suma {
